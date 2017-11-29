@@ -1,7 +1,12 @@
-# demineur
+# jsonplaceholder-yeoman-angular
 
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.16.0.
+
+## Install dependencies 
+
+Run `npm install` for npm dependencies
+And run `bower install` for bower dependencies
 
 ## Build & development
 
