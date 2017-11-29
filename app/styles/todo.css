@@ -1,0 +1,29 @@
+.line-todo{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-gap: 1em; 
+    padding: 10px;   
+}
+
+
+
+.line-todo .title{
+    font-size: 20px;
+}
+
+.line-todo label{
+    font-size: 18px;
+}
+
+
+
+.line-todo .switch {
+    font-size: 30px;
+    margin-left: 30px;
+    
+}
+
+h3{
+    text-align: center;
+}
+

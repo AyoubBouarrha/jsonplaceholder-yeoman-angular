@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="styles/todo.css">
+<div ng-init="selectedUser='Veuillez choisir un Utilisateur'" class="container">
+    <div class="user-list">
+        <h2>Liste des utilisateurs:</h2>
+        <br>
+        <div class="dropdown">
+            <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-toggle="dropdown">{{selectedUser}}
+        <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li ng-repeat="user in users | orderBy:'name'"><a href="" ng-click="changeCurrentUser(user)">{{user.name}}</a></li>
+            </ul>
+        </div>
+        <br>
+    </div>
+
+    <todo></todo>
+
+</div>
