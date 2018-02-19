@@ -1,4 +1,4 @@
 # robotstxt.org
 
-User-agent: Ayoub BOOUARRHA
+User-agent: Ayoub BOUARRHA
 Disallow:
